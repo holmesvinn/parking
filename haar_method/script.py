@@ -6,7 +6,7 @@ poly = file.readlines()
 poly.remove("\n")
 
 car_cascade = cv2.CascadeClassifier('cars.xml')
-cap = cv2.VideoCapture('test.mp4')
+cap = cv2.VideoCapture('../test.mp4')
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 
 while True:
